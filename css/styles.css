@@ -24,6 +24,47 @@
 	background: #ea5b58; 
 }
 
+.separator {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10% 0;
+}
+
+.separator .hr {
+	display: flex;
+  -webkit-justify-content: center; 
+  justify-content: center; 
+  }
+
+.separator .hr hr {
+	width: 200px;
+	margin: auto;
+	margin-right: 0;
+	margin-left: 0;
+	border-color: white;
+}
+
+.separator .hr .round {
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	padding: 0;
+	background: white;
+	border-radius: 100%;
+}
+
+.separator h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.separator p {
+	padding: 3% 0;
+}
+
+
+
+
 
 /***** NAV ******/
 
@@ -188,28 +229,24 @@ section.services .services-responsive {
 
 section.services .services-responsive .services-separator {
 	position: relative;
-	padding-top: 5%;
 }
 
-section.services .services-responsive .services-separator .hr {
-	display: flex;
-  -webkit-justify-content: center; 
-  justify-content: center; 
-  }
-
-section.services .services-responsive .services-separator hr {
-	width: 20px;
-	margin: auto;
-	margin-right: 0;
-	margin-left: 0;
-	border-color: black;
+section.services .services-responsive .service-item {
+	text-align: center;
+	padding: 20px 0;
 }
 
-section.services .services-responsive .services-separator .round {
-	width: 10px;
-	height: 10px;
-	margin: 0;
-	padding: 0;
-	background: black;
-	border-radius: 100%;
+section.services .services-responsive .service-item h5 {
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+section.services .services-responsive .service-item p {
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+section.services .services-responsive .service-item .service-button {
+	width: 100px;
 }
