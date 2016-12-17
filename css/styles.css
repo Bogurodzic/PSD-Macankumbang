@@ -321,6 +321,15 @@ section.works .works-responsive .works-separator .hr .round {
 	background: black;
 }
 
+section.works .works-responsive .works-categories {
+	color: black;
+	text-align: center;
+}
+
+section.works .works-responsive .works-categories a {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
 
 section.works .works-responsive .works-portfolio {
 
@@ -329,7 +338,7 @@ section.works .works-responsive .works-portfolio {
 section.works .works-responsive .works-portfolio .portfolio-item {
 	position: relative;
 	width: 80%;
-	max-width: 370px;
+	max-width: 369px;
 	height: auto;
 	margin: 0 auto;
 	margin-top: 25px;
@@ -345,7 +354,7 @@ section.works .works-responsive .works-portfolio .portfolio-item .portfolio-desc
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 99%;
 	background: rgba(71, 90, 133, 0.5);
 }
 
@@ -367,10 +376,46 @@ section.works .works-responsive .works-portfolio .portfolio-item .portfolio-desc
 }
 
 section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover p {
+	width: 80%;
+	margin: 0 auto;
 	padding: 20px 0;
 
 }
 
 section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover .fa-eye {
 
+}
+
+section.works .works-responsive .works-more {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.works .works-responsive .works-more p {
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+section.works .works-responsive .works-more .fa {
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+
+/*********** Testimonial **************/
+
+section.testimonial {
+	max-width: 100%;
+	background: white;
+	height: auto;
+}
+
+section.testimonial .testimonial-responsive {
+	background: white;
+	max-width: 1170px;
+	height: 100%;
+	margin: 0 auto;
 }
