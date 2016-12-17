@@ -250,3 +250,127 @@ section.services .services-responsive .service-item p {
 section.services .services-responsive .service-item .service-button {
 	width: 100px;
 }
+
+
+
+/******* WORKS ********/
+
+section.works {
+	max-width: 100%;
+	background: white;
+	height: auto;
+}
+
+section.works .works-responsive {
+	background: white;
+	max-width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section.works .works-image {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+section.works .works-image img {
+	width: 100%;
+}
+
+section.works .works-text {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.works .works-text h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+section.works .works-text p {
+	font-size: 0.9em;
+}
+
+section.works .works-responsive {
+	background: white;
+	max-width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section.works .works-responsive .works-separator h4 {
+	color: black;
+}
+
+section.works .works-responsive .works-separator p {
+	color: black;
+}
+
+section.works .works-responsive .works-separator .hr hr {
+	border-color: black;
+}
+
+section.works .works-responsive .works-separator .hr .round {
+	background: black;
+}
+
+
+section.works .works-responsive .works-portfolio {
+
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item {
+	position: relative;
+	width: 80%;
+	max-width: 370px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item img {
+	width: 100%;
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(71, 90, 133, 0.5);
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover h4 {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover p {
+	padding: 20px 0;
+
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover .fa-eye {
+
+}
