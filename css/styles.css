@@ -442,8 +442,8 @@ section.testimonial .testimonial-responsive .testimonial-photo {
 }
 
 section.testimonial .testimonial-responsive .testimonial-photo img {
+	box-sizing: border-box;
 	width: 100%;
-	height: auto;
 	border-radius: 100%;
 	border: 8px solid #EBEBEB;
 }
@@ -458,8 +458,116 @@ section.testimonial .testimonial-responsive .testimonial-quote blockquote {
 }
 
 section.testimonial .testimonial-responsive .testimonial-quote blockquote p {
-	padding-top: 15px;
+	padding: 15px 0 40px 0;
 	color: black;
 	font-weight: bold;
 	text-align: center;
 }
+
+
+/********** In touch ************/
+
+section.in-touch {
+	max-width: 100%;
+	background: white;
+	height: auto;
+}
+
+section.in-touch .touch-image {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: -5px;
+}
+
+section.in-touch .touch-image img {
+	width: 100%;
+}
+
+section.in-touch .touch-text {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.in-touch .touch-text h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+section.in-touch .touch-text p {
+	font-size: 0.9em;
+}
+
+section.in-touch .map-image {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: -5px;
+}
+
+section.in-touch .map-image img {
+	width: 100%;
+}
+
+/********** Contact ***********/
+
+section.contact {
+	max-width: 100%;
+	background: #475A85;
+	height: auto;
+}
+
+section.contact .contact-responsive {
+	background: #475A85;
+	max-width: 1170px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section.contact .contact-responsive .contact-form {
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.contact .contact-responsive .contact-form .form-user {
+	display: inline-block;
+	width: 45%;
+	background: #EEEEEE;
+	height: 25px;
+	margin-bottom: 10px;
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.contact .contact-responsive .contact-form .form-email {
+	display: inline-block;
+	float: right;
+	width: 45%;
+	transform: translateX(5px);
+	background: #EEEEEE;
+	height: 25px;
+	margin-bottom: 10px;
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.contact .contact-responsive .contact-form .form-message {
+	width: 100%;
+	height: 110px;
+	color: black;
+	background: #EEEEEE;
+	color: #747474;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section.contact .contact-responsive .contact-form .header-button {
+	margin-top: 10px;
+}
+
