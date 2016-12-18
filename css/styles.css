@@ -571,3 +571,63 @@ section.contact .contact-responsive .contact-form .header-button {
 	margin-top: 10px;
 }
 
+section.contact .contact-responsive .contact-address {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 5%;
+}
+
+section.contact .contact-responsive .contact-address p {
+	padding: 7px 0;
+	font-size: 0.75em;
+}
+
+section.contact .contact-responsive .contact-address p:nth-child(1) {
+	font-weight: bold;
+	padding-top: 30px;
+	text-align: center;
+}
+
+section.contact .contact-responsive .contact-address p:nth-child(2) {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section.contact .contact-responsive .contact-address .fa {
+	padding-right: 20px;
+}
+
+section.contact .contact-responsive .contact-address .contact-icons {
+	width: 140px;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+}
+
+section.contact .contact-responsive .contact-address .contact-icons .fa-background {
+	color: #C0C0C0;
+}
+
+section.contact .contact-responsive .contact-address .contact-icons .fa-primary {
+	color: #475A85;
+}
+
+section.contact .contact-responsive .contact-address .fa-background {
+	color: #C0C0C0;
+}
+
+section.contact .contact-responsive .contact-address .fa-color {
+	color: #929292;
+}
+
+section.contact .contact-responsive .contact-address > .fa-stack {
+	display: block;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+section.contact .contact-responsive .contact-address .fa-stack:hover {
+	cursor: pointer;
+}
+
+section.contact .contact-responsive .contact-address .fa-stack:hover .fa-background {
+	color: white;
+}
