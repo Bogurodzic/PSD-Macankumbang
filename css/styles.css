@@ -31,9 +31,12 @@
 }
 
 .separator .hr {
-	display: flex;
-  -webkit-justify-content: center; 
-  justify-content: center; 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex; 
+  -webkit-box-pack: center; 
+      -ms-flex-pack: center; 
+          justify-content: center; 
   }
 
 .separator .hr hr {
@@ -281,7 +284,8 @@ section.works .works-image img {
 section.works .works-text {
 	position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -361,7 +365,8 @@ section.works .works-responsive .works-portfolio .portfolio-item .portfolio-desc
 section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover {
 	position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -487,7 +492,8 @@ section.in-touch .touch-image img {
 section.in-touch .touch-text {
 	position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -550,7 +556,8 @@ section.contact .contact-responsive .contact-form .form-email {
 	display: inline-block;
 	float: right;
 	width: 45%;
-	transform: translateX(5px);
+	-webkit-transform: translateX(5px);
+	        transform: translateX(5px);
 	background: #EEEEEE;
 	height: 25px;
 	margin-bottom: 10px;
@@ -641,9 +648,15 @@ footer.footer {
 	background: #161828;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 
