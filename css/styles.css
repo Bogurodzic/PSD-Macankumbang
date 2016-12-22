@@ -66,9 +66,6 @@
 }
 
 
-
-
-
 /***** NAV ******/
 
 .nav {
@@ -347,6 +344,7 @@ section.works .works-responsive .works-portfolio .portfolio-item {
 	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	transition: all 1s;
 }
 
 section.works .works-responsive .works-portfolio .portfolio-item img {
@@ -407,7 +405,6 @@ section.works .works-responsive .works-more .fa {
 	font-weight: bold;
 	cursor: pointer;
 }
-
 
 
 /*********** Testimonial **************/
