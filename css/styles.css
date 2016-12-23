@@ -331,6 +331,12 @@ section.works .works-responsive .works-categories {
 section.works .works-responsive .works-categories a {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
+	transition: all 0.1s;
+}
+
+section.works .works-responsive .works-categories a:hover {
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 section.works .works-responsive .works-portfolio {
@@ -685,6 +691,24 @@ footer.footer .footer-text .bold {
 		width: 50%;
 	}
 
+	section.in-touch .touch-text h4 {
+		font-weight: bold;
+		font-size: 3em;
+	}
+
+	section.in-touch .touch-text p {
+		font-size: 1.5em;
+	}
+
+	section.works .works-text h4 {
+		font-weight: bold;
+		font-size: 2.2em;
+	}
+
+	section.works .works-text p {
+		font-size: 1.1em;
+	}
+
 }
 
 @media only screen and (min-width: 650px) {
@@ -709,6 +733,17 @@ footer.footer .footer-text .bold {
 		width: 35%;
 	}
 
+	section.works .works-responsive .works-portfolio {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	section.works .works-responsive .works-portfolio .portfolio-item {
+		width: 370px;
+		margin: 10px;
+	}
+
 }
 
 @media only screen and (min-width: 970px) {
@@ -717,5 +752,33 @@ footer.footer .footer-text .bold {
 		width: 25%;
 	}
 
+	section.in-touch .touch-text h4 {
+		font-weight: bold;
+		font-size: 3em;
+	}
+
+	section.in-touch .touch-text p {
+		font-size: 1.5em;
+	}
+
+	section.works .works-text h4 {
+		font-weight: bold;
+		font-size: 3em;
+	}
+
+	section.works .works-text p {
+		font-size: 1.5em;
+	}
+
 }
+
+@media only screen and (min-width: 1184px) {
+
+		section.works .works-responsive .works-portfolio {
+		justify-content: initial;
+	}
+
+
+}
+
 

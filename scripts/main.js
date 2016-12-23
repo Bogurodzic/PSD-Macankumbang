@@ -1,8 +1,6 @@
 var categories = document.getElementById("works-categories").children,
 	catLength = categories.length
 
-console.log(categories[0]);
-
 for(var i=0; i<catLength; i++){
 	
 	var category = categories[i];
@@ -19,9 +17,7 @@ for(var i=0; i<catLength; i++){
 
 }
 
-
 var portfolio = document.querySelector(".works-portfolio").children;
-console.log(portfolio);
 
 function filterPortfolio(attrToFilter){
 
@@ -43,7 +39,6 @@ function filterPortfolio(attrToFilter){
 	});
 
 }
-
 
 function showAll(){
 
