@@ -336,12 +336,18 @@ section.works .works-responsive .works-portfolio .portfolio-item img {
 }
 
 section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description {
+	display: none;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 99%;
 	background: rgba(71, 90, 133, 0.5);
+}
+
+section.works .works-responsive .works-portfolio .portfolio-item:hover .portfolio-description {
+	display: block;
+	cursor: pointer;
 }
 
 section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover {
@@ -369,8 +375,9 @@ section.works .works-responsive .works-portfolio .portfolio-item .portfolio-desc
 
 }
 
-section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover .fa-eye {
-
+section.works .works-responsive .works-portfolio .portfolio-item .portfolio-description .portfolio-hover .fa-eye:hover {
+	opacity: 0.8;
+	color: black;
 }
 
 section.works .works-responsive .works-more {
