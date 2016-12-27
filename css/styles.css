@@ -441,8 +441,14 @@ section.testimonial .testimonial-responsive .testimonial-separator .hr .round {
 }
 
 .my-slider ul li {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 
@@ -681,7 +687,9 @@ footer.footer {
 }
 
 
-
+footer.footer .footer-text p {
+	color: #76777f;
+}
 
 footer.footer .footer-text p:nth-child(1) {
 	font-size: 0.7em;
@@ -689,6 +697,7 @@ footer.footer .footer-text p:nth-child(1) {
 
 footer.footer .footer-text .bold {
 	font-weight: bold;
+	color: #76777f;
 }
 
 @media only screen and (min-width: 540px) {
@@ -946,6 +955,15 @@ footer.footer .footer-text .bold {
 		    justify-content: space-around;
 	}
 
+	section.testimonial .testimonial-responsive .testimonial-photo {
+		width: 40%;
+	}
+
+
+	section.testimonial .testimonial-responsive .testimonial-quote {
+		width: 60%;
+	}
+
 	section.testimonial .testimonial-responsive .testimonial-photo img {
 		box-sizing: border-box;
 		width:265px;
@@ -956,10 +974,15 @@ footer.footer .footer-text .bold {
 	section.testimonial .testimonial-responsive .testimonial-quote blockquote {
 		padding-top: 20px;
 		color: black;
-		font-family: 'Open Sans', sans-serif;
-		width: 66%;
-		margin: 0 auto;
-		text-align: center;
+		width: 90%;
+		margin: 0;
+		font-size: 18px;
+		line-height: 120%;
+		text-align: left;
+	}
+
+	section.testimonial .testimonial-responsive .testimonial-quote blockquote p {
+		text-align: left;
 	}
 
 	section.in-touch .map-image {
@@ -1019,6 +1042,20 @@ footer.footer .footer-text .bold {
 		top: 85%;
 		left: 95%;
 	}
+
+	footer.footer {
+		height: 180px;
+	}
+
+	footer.footer .footer-text p {
+		font-size: 1.5em;
+	}
+
+	footer.footer .footer-text p:nth-child(1) {
+		font-size: 0.75em;
+		padding-bottom: 30px;
+	}
+
 }
 
 @media only screen and (min-width: 1184px) {
@@ -1033,13 +1070,6 @@ footer.footer .footer-text .bold {
 		margin: 1;
 	}
 
-	section.testimonial .testimonial-responsive .testimonial-photo img {
-		width:265px;
-	}
-
-	section.testimonial .testimonial-responsive .testimonial-quote blockquote {
-		width: 780px;
-	}
 
 }
 
