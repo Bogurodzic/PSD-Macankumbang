@@ -144,13 +144,13 @@
 
 section.header {
 	max-width: 100%;
-	background: #161828;
+	background: url("../images/header-backgroun.jpeg") no-repeat center center/cover;
 	height: auto;
+	background-attachment: fixed;
 }
 
 section.header .header-responsive {
 	position: relative;
-	background: #161828;
 	max-width: 1170px;
 	height: 100%;
 	margin: 0 auto;
@@ -253,34 +253,28 @@ section.works .works-responsive {
 
 section.works .works-image {
 	width: 100%;
-	height: auto;
+	height: 100px;
 	position: relative;
+	background: url("../images/portfolio-background.jpg") no-repeat center center/cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+		display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-section.works .works-image img {
-	width: 100%;
-}
-
-section.works .works-text {
-	position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-	left: 0;
-	right: 0;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-section.works .works-text h4 {
+section.works h4 {
 	font-weight: bold;
+	width: 100%;
 	font-size: 1.5em;
+	text-align: center;
 }
 
-section.works .works-text p {
+section.works p {
+	width: 100%;
 	font-size: 0.9em;
-}
+	text-align: center;
+} 
 
 section.works .works-responsive {
 	background: white;
@@ -472,34 +466,29 @@ section.in-touch {
 
 section.in-touch .touch-image {
 	width: 100%;
-	height: auto;
+	height: 100px;
 	position: relative;
-	margin-bottom: -5px;
+	background: url("../images/touch-background.jpg") no-repeat center center/cover;
+	background-attachment: fixed;
+	padding: 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-section.in-touch .touch-image img {
-	width: 100%;
-}
 
-section.in-touch .touch-text {
-	position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-	left: 0;
-	right: 0;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
 
-section.in-touch .touch-text h4 {
+section.in-touch .touch-image h4 {
 	font-weight: bold;
+	width: 100%;
 	font-size: 1.5em;
+	text-align: center;
 }
 
-section.in-touch .touch-text p {
+section.in-touch .touch-image p {
+	width: 100%;
 	font-size: 0.9em;
+	text-align: center;
 }
 
 section.in-touch .map-image {
@@ -545,6 +534,7 @@ section.contact .contact-responsive .contact-form .form-user {
 	color: #747474;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 5px;
+	border: 1px solid white;
 }
 
 section.contact .contact-responsive .contact-form .form-email {
@@ -559,6 +549,7 @@ section.contact .contact-responsive .contact-form .form-email {
 	color: #747474;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 5px;
+	border: 1px solid white;
 }
 
 section.contact .contact-responsive .contact-form .form-message {
@@ -568,6 +559,7 @@ section.contact .contact-responsive .contact-form .form-message {
 	background: #EEEEEE;
 	color: #747474;
 	font-family: 'Open Sans', sans-serif;
+	border: 1px solid white;
 	border-radius: 5px;
 }
 
@@ -732,21 +724,21 @@ footer.footer .footer-text .bold {
 		width: 50%;
 	}
 
-	section.in-touch .touch-text h4 {
+	section.in-touch .touch-image h4 {
 		font-weight: bold;
 		font-size: 3em;
 	}
 
-	section.in-touch .touch-text p {
+	section.in-touch .touch-image p {
 		font-size: 1.5em;
 	}
 
-	section.works .works-text h4 {
+	section.works .works-image h4 {
 		font-weight: bold;
 		font-size: 2.2em;
 	}
 
-	section.works .works-text p {
+	section.works .works-image p {
 		font-size: 1.1em;
 	}
 
@@ -792,12 +784,14 @@ footer.footer .footer-text .bold {
 		box-sizing: border-box;
 		padding-left: 20px;
 		height: 60px;
+		font-size: 1.1em;
 	}
 
 	section.contact .contact-responsive .contact-form .form-email {
 		box-sizing: border-box;
 		padding-left: 20px;
 		height: 60px;
+		font-size: 1.1em;
 	}
 
 	section.contact .contact-responsive .contact-form .form-message {
@@ -805,6 +799,7 @@ footer.footer .footer-text .bold {
 		width: 101%;
 		padding: 25px 0 0 20px;
 		height: 165px;
+		font-size: 1.1em;
 	}
 
 	.header-button {
@@ -821,6 +816,42 @@ footer.footer .footer-text .bold {
 
 @media only screen and (min-width: 970px) {
 
+	section.header .header-responsive {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding-bottom: 45px;
+	}
+
+	section.header .header-responsive .header-img {
+		padding-top: 40px;
+		order: 2;
+		margin: 0;
+	}
+
+	section.header .header-responsive .header-img img {
+		border-radius: 5px;
+	}
+
+	section.header .header-responsive .header-text {
+		box-sizing: border-box;
+		padding-left: 15px;
+		text-align: left;
+	}
+
+	section.header .header-responsive .header-text h2 {
+		font-size: 1.5em;
+	}
+
+	section.header .header-responsive .header-text p {
+		font-size: 1.25em;
+		padding: 40px 0 60px 0;
+	}
+
+	section.header .header-responsive .header-text .header-button {
+		margin: 0;
+	}
+
 	.nav .nav-responsive .nav-small li {
 		margin-right: 45px;
 	}
@@ -833,21 +864,23 @@ footer.footer .footer-text .bold {
 		width: 25%;
 	}
 
-	section.in-touch .touch-text h4 {
+
+
+	section.in-touch .touch-image h4 {
 		font-weight: bold;
 		font-size: 3em;
 	}
 
-	section.in-touch .touch-text p {
+	section.in-touch .touch-image p {
 		font-size: 1.5em;
 	}
 
-	section.works .works-text h4 {
+	section.works .works-image h4 {
 		font-weight: bold;
 		font-size: 3em;
 	}
 
-	section.works .works-text p {
+	section.works .works-image p {
 		font-size: 1.5em;
 	}
 
