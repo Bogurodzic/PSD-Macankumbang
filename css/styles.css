@@ -493,14 +493,10 @@ section.in-touch .touch-image p {
 
 section.in-touch .map-image {
 	width: 100%;
-	height: auto;
+	height: 250px;
 	position: relative;
-	margin-bottom: -5px;
 }
 
-section.in-touch .map-image img {
-	width: 100%;
-}
 
 /********** Contact ***********/
 
@@ -812,6 +808,10 @@ footer.footer .footer-text .bold {
 		font-size: 1em;
 	}
 
+	section.in-touch .map-image {
+		height: 350px;
+	}
+
 }
 
 @media only screen and (min-width: 970px) {
@@ -864,15 +864,8 @@ footer.footer .footer-text .bold {
 		width: 25%;
 	}
 
-
-
-	section.in-touch .touch-image h4 {
-		font-weight: bold;
-		font-size: 3em;
-	}
-
-	section.in-touch .touch-image p {
-		font-size: 1.5em;
+	section.works .works-image {
+		padding: 150px 0;
 	}
 
 	section.works .works-image h4 {
@@ -881,6 +874,19 @@ footer.footer .footer-text .bold {
 	}
 
 	section.works .works-image p {
+		font-size: 1.5em;
+	}
+
+	section.in-touch .touch-image {
+		padding: 150px 0;
+	}
+
+	section.in-touch .touch-image h4 {
+		font-weight: bold;
+		font-size: 3em;
+	}
+
+	section.in-touch .touch-image p {
 		font-size: 1.5em;
 	}
 
@@ -905,6 +911,10 @@ footer.footer .footer-text .bold {
 		width: 66%;
 		margin: 0 auto;
 		text-align: center;
+	}
+
+	section.in-touch .map-image {
+		height: 515px;
 	}
 
 	section.contact .contact-responsive {
