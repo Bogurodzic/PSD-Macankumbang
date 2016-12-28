@@ -92,7 +92,7 @@
 .nav .nav-responsive .fa-bars {
 	cursor: pointer;
 	padding-left: 30%;
-	padding-right: 10%;
+	padding-right: 5%;
 }
 
 .fa-bars:hover .nav-small {
@@ -105,7 +105,7 @@
 	position: absolute;
 	display: none;
 	top: 70px;
-	left: 70%;
+	left: 75%;
 	font-size: 12px;
 	z-index: 5;
 }
